@@ -48,7 +48,7 @@ public class NumberAction {
     }
 
     /**
-     * This method will pring from 1 to the number user passed
+     * This method will comparing from 1 to the number user passed
      *
      * @param x
      */
