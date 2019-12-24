@@ -1,8 +1,8 @@
-package day01;
-
+package A1_Practice;
 public class Main {
-
     public static void main(String[] args) {
-	// write your code here
+
+
+
     }
 }
