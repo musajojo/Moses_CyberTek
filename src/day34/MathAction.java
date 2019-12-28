@@ -1,9 +1,6 @@
 package day34;
-
 import day31.Calculator_V2;
-
 import java.util.Arrays;
-
 public class MathAction {
 
     // calling the static methods of other classes
@@ -12,8 +9,8 @@ public class MathAction {
         // build3DigitNumbers is under day34 package
         // and inside PracticeMethodWithNumbers class
 
-       // int result1 = PracticeMethodWithNumbers.build3DigitNumber(6, 4, 0); // There was an error in this line from class
-        // System.out.println("result1 = " + result1); // There was an error in this line from class
+       int result1 = PracticeMethodWithNumbers.build3DigitNumber(6, 4, 0);
+       System.out.println("result1 = " + result1);
 
         // in order to use Arrays class
         //      that coming from java.util package (NOT YOUR PACKAGE)
