@@ -1,7 +1,6 @@
 package day33;
 
-/**
- * Practicing method with return type
+/*Practicing method with return type
  *
  * @author Akbar
  */
