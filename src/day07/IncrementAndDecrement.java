@@ -31,7 +31,6 @@ public class IncrementAndDecrement {
         // in below case first plus is for concatenation and second ++ is for increment
         System.out.println("used ++ to increment and concatenate : " + (++apple));
 
-
     }
 
 }

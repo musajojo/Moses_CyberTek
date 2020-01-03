@@ -4,7 +4,6 @@ public class PreIncrementAndPostIncrement {
 
     public static void main(String[] args) {
 
-
         // incremente a
         int apple = 8;
         apple++;  // incrementing by one  --> 9

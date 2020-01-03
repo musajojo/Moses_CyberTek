@@ -4,6 +4,12 @@ package A1_Practice; import java.util.*; public class A1_Practice
 
 
 
+    int b = 100%70;
+
+    System.out.println(b);
+
+
+
 
     }
 }

@@ -26,14 +26,6 @@ public class Casting {
         int earthToMoonIn_ship = (int) earthToMoon; //with out (int) it turns red. hover over and cast into int.
 
         System.out.println(earthToMoonIn_ship);
-
-
-
-
-
-
-
-
     }
 }
 

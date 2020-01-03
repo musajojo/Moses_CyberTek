@@ -33,11 +33,6 @@ public class RelationalOperation_with_variable {
 
         // == and != are questions, chwcking for equality or inequality
 
-
-
-
-
-
     }
 }
 

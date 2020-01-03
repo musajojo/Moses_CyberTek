@@ -4,7 +4,6 @@ public class CastingTheCharacter {
 
     public static void main(String[] args) {
 
-
         char grade = 'B';
         System.out.println(grade);
 

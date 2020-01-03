@@ -12,7 +12,6 @@ public class Repl_032_Seconds_Converter {
         seconds = inputSeconds%60;
 
         System.out.println(hours+" hours, "+minutes+" minutes,"+" and "+seconds+" seconds");
-
     }
 }
 /*
@@ -39,9 +38,6 @@ Example run:
 Enter seconds:
 3695
 1 hours, 1 minutes, and 35 seconds
-
-
-
  */
 /*
 import java.util.*;

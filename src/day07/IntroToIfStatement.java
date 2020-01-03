@@ -4,7 +4,6 @@ public class IntroToIfStatement {
 
     public static void main(String[] args) {
 
-
         int score = 62;
 
         // if (put your condition here) {

@@ -20,6 +20,5 @@ public class ReplTask_20_Time {
         //2. WRITE YOUR CODE HERE:
         System.out.println(hour + ":" + minute + ":" + second + " " + amOrPm);
 
-
     }
 }
