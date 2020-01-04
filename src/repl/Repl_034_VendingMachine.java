@@ -5,16 +5,17 @@ public class Repl_034_VendingMachine {
     Scanner scan = new Scanner (System.in);
 
     int itemPrice;
-    // int itemPrice = 91;
-
-        int quarters, dimes, nickels;
+    int quarters, dimes, nickels;
     int dollar = 100;
     int change;
         System.out.println("Enter price in cents:");
 
-        //System.out.println(itemPrice); // this will be deleted for below scan
     itemPrice = scan.nextInt();
 
+        if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
+            System.out.println("Invalid price!");
+            return;
+        }
         change = dollar-itemPrice;
 
         quarters = change/25;
@@ -26,10 +27,6 @@ public class Repl_034_VendingMachine {
         nickels = change/5;
         change = change%5;
 
-        if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
-            System.out.println("Invalid price!");
-            return;
-        }
         System.out.println("Your change is "+quarters+" quarters, "+dimes+" dimes, and "+nickels+" nickels.");
     }
 }
@@ -39,7 +36,7 @@ public class Repl_034_VendingMachine {
 Instructions from your teacher:
 
 Enter*price*in*cents:95
-Your*change*is*0*quarter,*0*dimes,*and*1*nickels.
+Your*change*is*0*quarters,*0*dimes,*and*1*nickels.
 
 Write a program that determines the change to be dispensed from a vending
 machine. An item in the machine can cost between 25 cents and 1 dollar, in 5-cent
@@ -84,8 +81,7 @@ public class Main {
         double nickels = 10*((total%)%10)/5;
         double pennies = 10*(((total%25)%10)%5)/1
  */
-/*
-    Scanner scan = new Scanner (System.in);
+/*    Scanner scan = new Scanner (System.in);
 
     int itemPrice;
     // int itemPrice = 91;
@@ -115,5 +111,4 @@ public class Main {
         }
         System.out.println("Your change is "+quarters+" quarter "+dimes+" dimes, and "+nickels+" nickels");
     }
-}
- */
+} */
