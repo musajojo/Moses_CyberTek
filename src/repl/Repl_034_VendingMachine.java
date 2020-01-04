@@ -4,30 +4,33 @@ public class Repl_034_VendingMachine {
     public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
 
-    int itemPrice = 65;
-    int quarters, dimes, nickels;
+    int itemPrice;
+    // int itemPrice = 91;
+
+        int quarters, dimes, nickels;
     int dollar = 100;
     int change;
         System.out.println("Enter price in cents:");
 
-        System.out.println(itemPrice); // this will be deleted for below scan
-    // itemPrice = scan.nextInt();
+        //System.out.println(itemPrice); // this will be deleted for below scan
+    itemPrice = scan.nextInt();
 
         change = dollar-itemPrice;
-        System.out.println("Change: "+change);
-       nickels = change/5;
-        quarters = change%25;
-        change = change-quarters;
-        change = change%quarters;
-       dimes = change/10;
-       // dimes = change/10;
-       // nickels = dimes/5;
+
+        quarters = change/25;
+        change = change%25;
+
+        dimes = change/10;
+        change = change%10;
+
+        nickels = change/5;
+        change = change%5;
 
         if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
             System.out.println("Invalid price!");
+            return;
         }
-        System.out.println("Your change is "+quarters+" quarter "+dimes+" dimes, and "+nickels+" nickels");
-
+        System.out.println("Your change is "+quarters+" quarters, "+dimes+" dimes, and "+nickels+" nickels.");
     }
 }
 /*
@@ -80,4 +83,37 @@ public class Main {
         double dimes = 10*(total%25)/1025;
         double nickels = 10*((total%)%10)/5;
         double pennies = 10*(((total%25)%10)%5)/1
+ */
+/*
+    Scanner scan = new Scanner (System.in);
+
+    int itemPrice;
+    // int itemPrice = 91;
+
+        int quarters, dimes, nickels;
+    int dollar = 100;
+    int change;
+        System.out.println("Enter price in cents:");
+
+        //System.out.println(itemPrice); // this will be deleted for below scan
+    itemPrice = scan.nextInt();
+
+        change = dollar-itemPrice;
+        System.out.println("Change: "+change);
+        quarters = change/25;
+        change = change%25;
+
+        dimes = change/10;
+        change = change%10;
+
+        nickels = change/5;
+        change = change%5;
+
+        if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
+            System.out.println("Invalid price!");
+            return;
+        }
+        System.out.println("Your change is "+quarters+" quarter "+dimes+" dimes, and "+nickels+" nickels");
+    }
+}
  */
