@@ -15,7 +15,6 @@ public class MultiBranchIfStatement2 {
         *   more than 70 and less than 80  --> point taken
          *   more than 60 and less than 70  --> warning
         *   if not speeding keep driving
-
     *
     * */
          int currentSpeed = 60;
@@ -33,6 +32,5 @@ public class MultiBranchIfStatement2 {
          }
 
     }
-
 
 }

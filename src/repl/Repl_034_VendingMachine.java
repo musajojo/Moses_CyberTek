@@ -3,28 +3,30 @@ import java.util.*;
 public class Repl_034_VendingMachine {
     public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
-    int itemPrice;
+
+    int itemPrice = 65;
     int quarters, dimes, nickels;
-
+    int dollar = 100;
+    int change;
         System.out.println("Enter price in cents:");
-    itemPrice = scan.nextInt();
 
+        System.out.println(itemPrice); // this will be deleted for below scan
+    // itemPrice = scan.nextInt();
 
-    /* Change Calculator
-        double quarters = 10*total/25;
-        double dimes = 10*(total%25)/1025;
-        double nickels = 10*((total%)%10)/5;
-        double pennies = 10*(((total%25)%10)%5)/1
-     */
+        change = dollar-itemPrice;
+        System.out.println("Change: "+change);
+       nickels = change/5;
+        quarters = change%25;
+        change = change-quarters;
+        change = change%quarters;
+       dimes = change/10;
+       // dimes = change/10;
+       // nickels = dimes/5;
 
-        if (itemPrice < 25 || itemPrice > 100){
-            System.out.println("Invalid price!");
-        }else if (itemPrice % 5 == 0){
+        if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
             System.out.println("Invalid price!");
         }
-
-
-
+        System.out.println("Your change is "+quarters+" quarter "+dimes+" dimes, and "+nickels+" nickels");
 
     }
 }

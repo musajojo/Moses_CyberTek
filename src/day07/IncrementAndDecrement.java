@@ -5,12 +5,12 @@ public class IncrementAndDecrement {
     public static void main(String[] args) {
 
         /*
-        * / —— The special case of increasing and decreasing numbers by 1
+         —— The special case of increasing and decreasing numbers by 1
             //. —>> increment and decrement operator come in :  ++ - -
               int  offer = 2 ;
               offer += 1 ;    // 3
               ++ offer ;       // 4   ++ will increase the number variable by 1 in shortcut
-        * */
+        */
 
         int apple = 10;
         System.out.println("original apple is " + apple);
