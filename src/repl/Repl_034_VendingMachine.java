@@ -1,5 +1,8 @@
 package repl;
 import java.util.*;
+
+import static java.lang.System.exit;
+
 public class Repl_034_VendingMachine {
     public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
@@ -15,6 +18,7 @@ public class Repl_034_VendingMachine {
         if (itemPrice < 25 || itemPrice > 100 || itemPrice % 5 != 0) {
             System.out.println("Invalid price!");
             return;
+            //System.exit(0); Better way to stop program after
         }
         change = dollar-itemPrice;
 
