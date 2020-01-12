@@ -31,9 +31,5 @@ public class DayPrinter_With_SwitchStatement {
                 System.out.println("Day is unkown ");
         }
 
-
-
-
-
     }
 }

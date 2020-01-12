@@ -29,9 +29,12 @@ public class ArrayList_LoopPractice {
             // >= will give you last longest name if you have more than one
             if (currentName.length() >= longestName.length()) {
                 longestName = currentName;
+                //System.out.println(longestName);
             }
 
         }
+       // System.out.println(longestName);
+        //System.exit(0);
         //System.out.println("longestName = " + longestName);
 
         // How do I get the concatenation of all longest words if there are more than one
@@ -43,7 +46,6 @@ public class ArrayList_LoopPractice {
             if (nameLst.get(i).length() == longestName.length()) {
                 System.out.println("Longest words = " + nameLst.get(i));
             }
-
         }
 
         // length     :  counting the elements inside array , it's a property of array object
