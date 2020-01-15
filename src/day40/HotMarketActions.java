@@ -27,6 +27,7 @@ public class HotMarketActions {
         o3.salary = 96000;
         o3.displayInformation();
 
+        System.exit(0);
         Offer o4 = new Offer();
         // if we don't assign values for instance filed|variable
         // we get default value

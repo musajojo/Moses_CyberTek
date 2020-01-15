@@ -7,6 +7,7 @@ public class SpaceShip {
     int x;
     int y;
 
+
     /**
      * provide initial position of spaceship
      *

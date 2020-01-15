@@ -6,6 +6,7 @@ public class AtTheBank {
 
 
         BankAccount b1 = new BankAccount();
+                            //String newAccountType, String newAccountHolder, long newAccountNumber, double newBalance
         b1.setAllTheValue("Saving", "Hasan", 123456789, 10000);
 
         b1.showAccountBalance();
@@ -23,7 +24,6 @@ public class AtTheBank {
 
         b1.purchaseProduct(120, 3);
         System.out.println("b1 = " + b1);
-
 
     }
 

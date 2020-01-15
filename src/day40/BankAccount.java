@@ -63,6 +63,7 @@ public class BankAccount {
 
     // toString
     public String toString() {
+
         return "BankAccount{" +
                 "accountType='" + accountType + '\'' +
                 ", accountHolder='" + accountHolder + '\'' +
@@ -70,4 +71,5 @@ public class BankAccount {
                 ", balance=" + balance +
                 '}';
     }
+
 }

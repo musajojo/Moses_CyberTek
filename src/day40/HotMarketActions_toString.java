@@ -33,7 +33,6 @@ public class HotMarketActions_toString {
         myOffers.add(o4);
 
         System.out.println("myOffers = " + myOffers);
-
     }
 
 }
