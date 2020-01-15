@@ -49,7 +49,6 @@ public class AccessModifierIntro {
 
         System.out.println("p1 = " + p1);
 
-
     }
 
 
