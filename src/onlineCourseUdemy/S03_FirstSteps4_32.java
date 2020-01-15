@@ -49,13 +49,48 @@ public class S03_FirstSteps4_32 {
             System.out.println("And I am scared of aliens");
         }
 
+        int topScore = 80;
+        if (topScore < 100){
+            System.out.println("You got the high score!");
+        }
+        int secondTopScore = 81;
+        if ((topScore > secondTopScore) && (topScore < 100)){
+            System.out.println("Greater than secong top score and less than 100");
+        }
 
+        if (topScore > 90 || secondTopScore <= 90){
+            System.out.println("Either or both of the conditions are true");
+        }
 
+        int newValue = 50;
+        if (newValue == 50){
+            System.out.println("This is true");
+        }
+        boolean isCar = false;
+        if (isCar){
+            System.out.println("This is not supposed to happen");
+        }
+        // Ternary Operator
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
 
+        System.out.println();
+        System.out.println("Operator Challenge");
 
+        double myFirstValue = 20.00d;
+        double mySecondValue = 80d;
+        double myValuesTotals =  (myFirstValue + mySecondValue) * 100.00d;
+        System.out.println("myValuesTotals = " + myValuesTotals);
+        double theRemainder = myValuesTotals % 40.00d;
+        System.out.println("theRemainder = " + theRemainder);
 
-
-
-
+        boolean isNoRemainder = (theRemainder == 0) ? true : false;
+        System.out.println("isNoRemainder = " + isNoRemainder);
+        if (!isNoRemainder){
+            System.out.println("Got some remainder");
+        }
     }
 }
