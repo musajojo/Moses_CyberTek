@@ -1,7 +1,17 @@
 package repl;
-
+import java.util.*;
 public class Repl_035_Gift_Card {
     public static void main(String[] args) {
+        Scanner scan = new Scanner (System.in);
+
+        double giftCard = 100;
+        double price;
+        String item = scan.next();
+
+        if (giftCard == 100){
+
+        }
+
 
     }
 }
@@ -9,7 +19,11 @@ public class Repl_035_Gift_Card {
 035. Gift Card
 Instructions from your teacher:
 
-Let's say I've got a 100$ gift card and you want to buy something in your online store . Write a program that will help me to buy something and display leftover balance after purchase. If item is not in the list, display message: "Invalid item!". If price is more than 100$, display message: "Sorry, not enough funds on your gift card!".
+Let's say I've got a 100$ gift card and you want to buy something in your online store .
+Write a program that will help me to buy something and display leftover balance after purchase.
+If item is not in the list, display message: "Invalid item!".
+If price is more than 100$, display message: "Sorry, not enough funds on your gift card!".
+
 Hint
 Use if/ else if / else
 CODE EXAMPLE:
