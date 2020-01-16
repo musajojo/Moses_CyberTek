@@ -2,15 +2,42 @@ package repl;
 import java.util.*;
 public class Repl_035_Gift_Card {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner (System.in);
+        String item = scan.nextLine();
 
-        double giftCard = 100;
-        double price;
-        String item = scan.next();
-
-        if (giftCard == 100){
-
+        if (item.equalsIgnoreCase("Smartphone")){
+            System.out.println("Sorry, not enough funds on your gift card!");
+        }else if (item.equalsIgnoreCase("Laptop")){
+            System.out.println("Sorry, not enough funds on your gift card!");
+        }else if (item.equalsIgnoreCase("Charger")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 15)+"$");
+        }else if (item.equalsIgnoreCase("USB Cable")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 10)+"$");
+        }else if (item.equalsIgnoreCase("Headphones")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 30)+"$");
+        }else if (item.equalsIgnoreCase("Pants")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 50)+"$");
+        }else if (item.equalsIgnoreCase("Hat")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 25)+"$");
+        }else if (item.equalsIgnoreCase("Socks")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 5)+"$");
+        }else if (item.equalsIgnoreCase("Blanket")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 60)+"$");
+        }else if (item.equalsIgnoreCase("Pillow")){
+            System.out.println("Thank you for your purchase!");
+            System.out.println("Your current balance is: " + (100 - 40)+"$");
+        }else {
+            System.out.println("Invalid Item!");
         }
+
 
 
     }
@@ -58,4 +85,86 @@ Hat           $25.00
 Socks         $5.00
 Blanket       $60.00
 Pillow        $40.00
+ */
+/*
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String item = scan.nextLine();
+
+    //WRITE YOUR CODE HERE
+  }
+}
+ */
+/*
+package repl;
+import java.util.*;
+public class Repl_035_Gift_Card {
+    public static void main(String[] args) {
+
+        String Smartphone = "Smartphone";
+        String Laptop = "Laptop";
+        String Charger = "Charger";
+        String USB = "USB cable";
+        String Headphones = "Headphones";
+        String Pants = "Pants";
+        String Hat = "Hat";
+        String Socks = "Socks";
+        String Blanket = "Blanket";
+        String Pillow = "Pillow";
+
+        Scanner scan = new Scanner (System.in);
+        double giftCard = 100;
+        String item = scan.nextLine();
+        double price = scan.nextDouble();
+
+        if (price > giftCard){
+            System.out.println("Sorry, not enough funds on your gift card!");
+        }else if (item.equalsIgnoreCase(Smartphone)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Laptop)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Charger)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(USB)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Headphones)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Pants)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Hat)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Socks)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Blanket)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else if (item.equalsIgnoreCase(Pillow)){
+            System.out.println("Thank you for your purchase!");
+            double balance = giftCard - price;
+            System.out.println("Your current balance is: "+ balance + "$");
+        }else{
+            System.out.println("Invalid Item!");
+        }
+    }
+}
  */
