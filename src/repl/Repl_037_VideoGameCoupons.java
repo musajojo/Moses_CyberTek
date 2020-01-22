@@ -16,9 +16,6 @@ public class Repl_037_VideoGameCoupons {
 
         System.out.println("Number of Candies: " + candy);
         System.out.println("Number of Gumballs: " + gumball);
-
-
-
     }
 }
 /*
