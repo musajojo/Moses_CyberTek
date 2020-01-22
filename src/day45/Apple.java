@@ -7,7 +7,7 @@ public class Apple extends Fruit {
     // and compiler automatically call
     // no arg constructor of super class by inserting super()
 //    public Apple(){
-//        super();
+//       super();
 //    }
 
     // FIRST LINE OF ANY CONSTRUCTOR IS AUTOMATICALLY CALLING
@@ -24,6 +24,7 @@ public class Apple extends Fruit {
         // can we use this super() call more than once
         // NO !!!!!!!!!!!!!!!
         System.out.println("Message from Apple Constructor");
+//        super(); // can not be here , it has to be in first statement
     }
 
 
@@ -32,6 +33,5 @@ public class Apple extends Fruit {
         Apple a1 = new Apple();
 
     }
-
 
 }
