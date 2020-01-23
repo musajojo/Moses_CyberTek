@@ -8,7 +8,11 @@ public class Repl_038_Words {
         String word1 = s.next();
         String word2 = s.next();
 
-        //your code here
+if (word1.equals(word2)){
+    System.out.println("word1 equals word2");
+}else{
+    System.out.println("word1 does not equal word2");
+}
     }
 }
 /*
