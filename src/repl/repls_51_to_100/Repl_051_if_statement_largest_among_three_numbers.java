@@ -1,5 +1,4 @@
 package repl.repls_51_to_100;
-
 import java.util.Scanner;
 
 public class Repl_051_if_statement_largest_among_three_numbers {
@@ -9,6 +8,14 @@ public class Repl_051_if_statement_largest_among_three_numbers {
         int n1 = s.nextInt();
         int n2 = s.nextInt();
         int n3 = s.nextInt();
+
+        if (n1 > n2 && n1 > n3){
+            System.out.println("n1 is bigger");
+        }else if(n2 > n1 && n2 > n3){
+            System.out.println("n2 is bigger");
+        }else if(n3 > n1 && n3 > n2){
+            System.out.println("n3 is bigger");
+        }
     }
 }
 /*
