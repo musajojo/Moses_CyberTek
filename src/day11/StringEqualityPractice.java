@@ -4,7 +4,7 @@ public class StringEqualityPractice {
     public static void main(String[] args) {
 
         //Checking for String equality should be always
-        // done using equals methos of the String
+        // done using equals method of the String
 
         // oneString.equals(anotherString) -->> true or false
 

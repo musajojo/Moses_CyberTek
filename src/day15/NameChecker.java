@@ -12,12 +12,12 @@ public class NameChecker {
         String name = scan.next();
 
         int lenthOfTheName = name.length();
-        System.out.println("lenth Of The Name = " + lenthOfTheName);
+        System.out.println("length Of The Name = " + lenthOfTheName);
 
         if (lenthOfTheName < 4) {
             System.out.println("Short Name");
-            //}else if( lenthOfTheName >= 4 && lenthOfTheName <= 11   ){
-            // lenthOfTheName >=4
+            //}else if( lengthOfTheName >= 4 && lenthOfTheName <= 11   ){
+            // lengthOfTheName >=4
         } else if (lenthOfTheName <= 11) {
 
             System.out.println("Medium Name");
@@ -30,7 +30,7 @@ public class NameChecker {
         if (name.contains("a") || name.contains("e")) {
             System.out.println(" name contains a or e ");
         } else {
-            System.out.println(" i dont have both a or e in my name  ");
+            System.out.println(" i don't have both a or e in my name  ");
         }
 
 

@@ -6,9 +6,12 @@ public class Repl_059_Find_a_user {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter full name:");
-        String fullName = scan.next();
+        String firstName = scan.next();
+        String lastName = scan.next();
 
-        if (fullName.equalsIgnoreCase("Max Payne") || fullName.equalsIgnoreCase("Alan Wake")){
+        if (firstName.equalsIgnoreCase("Max") && lastName.equalsIgnoreCase("Payne")){
+            System.out.println("User found!");
+        }else if (firstName.equalsIgnoreCase("Alan") && lastName.equalsIgnoreCase("Wake")){
             System.out.println("User found!");
         }else{
             System.out.println("User not found!");
@@ -41,5 +44,27 @@ public class Main {
     Scanner scan = new Scanner(System.in);
     //WRITE YOUR CODE HERE
   }
+}
+ */
+/*
+// This is another way to do this. Had help.
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter full name:");
+
+        String name = scan.nextLine();
+        int cmp1, cmp2;
+        cmp1 = name.compareToIgnoreCase("Max Payne");
+        cmp2 = name.compareToIgnoreCase("Alan Wake");
+        if((cmp1 == 0)||(cmp2 == 0)){
+            System.out.println("User found!");
+        } else{
+            System.out.println("User not found!");
+        }
+    }
 }
  */
