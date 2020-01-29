@@ -1,8 +1,15 @@
 package repl.repls_51_to_100;
+import java.util.Scanner;
 
 public class Repl_060_Ternary_Operator_1 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter number:");
+        int x = scan.nextInt();
 
+        x = (x >= 5) ? x : -x;
+
+        System.out.println(x);
     }
 }
 /*
