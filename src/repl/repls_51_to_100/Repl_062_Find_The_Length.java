@@ -1,8 +1,15 @@
 package repl.repls_51_to_100;
 
+import java.util.*;
+
 public class Repl_062_Find_The_Length {
     public static void main(String[] args) {
 
+        System.out.println("Please enter the text:");
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();
+
+        System.out.println("Length is: " + word.length());
     }
 }
 /*
