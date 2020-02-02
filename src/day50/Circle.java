@@ -1,13 +1,5 @@
 package day50;
 
-public class Circle {
-    public static void main(String[] args) {
-
-    }
-}
-/*
-package day50;
-
 public class Circle extends Shape {
 
     int radius;
@@ -39,4 +31,3 @@ public class Circle extends Shape {
 
 
 }
- */

@@ -1,13 +1,5 @@
 package day50;
 
-public class Square {
-    public static void main(String[] args) {
-
-    }
-}
-/*
-package day50;
-
 public class Square extends Shape {
 
     //    String name;
@@ -45,4 +37,3 @@ public class Square extends Shape {
 
 
 }
- */

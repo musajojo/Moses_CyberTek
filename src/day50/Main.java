@@ -1,13 +1,4 @@
-package day50;
 
-public class Main {
-
-    public static void main(String[] args) {
-
-    }
-
-}
-/*
 package day50;
 
 public class Main {
@@ -33,4 +24,3 @@ public class Main {
     }
 
 }
- */

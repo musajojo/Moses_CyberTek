@@ -1,13 +1,5 @@
 package day50;
 
-public class Shape {
-    public static void main(String[] args) {
-
-    }
-}
-/*
-package day50;
-
 /*
 * Task 2
 		Create an Interface called Drawable
@@ -28,7 +20,6 @@ package day50;
 * */
 // abstract class is not required to implement
 // inherited abstract methods of the interface
-/* (Delete this comment as well)
 public abstract class Shape implements Drawable {
 
     String name;
@@ -45,4 +36,3 @@ public abstract class Shape implements Drawable {
 //    public abstract void draw();
 
 }
- */
