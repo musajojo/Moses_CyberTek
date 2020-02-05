@@ -9,6 +9,7 @@ public class Repl_065_Duplicate_it {
         String word1 = scan.next();
         String word2 = scan.next();
 
+        System.out.println(word1+word2+word2+word1);
     }
 }
 /*
