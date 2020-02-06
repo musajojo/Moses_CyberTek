@@ -1,6 +1,6 @@
-package onlineCourseUdemy;
+package onlineCourseUdemy_JPMSD.section03;
 
-public class S03_FirstSteps4_32 {
+public class S03_FirstSteps04_032 {
     public static void main(String[] args) {
 
         int result = 1 + 2; // 1 + 2 = 3

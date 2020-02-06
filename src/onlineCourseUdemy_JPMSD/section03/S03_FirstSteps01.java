@@ -1,6 +1,6 @@
-package onlineCourseUdemy;
+package onlineCourseUdemy_JPMSD.section03;
 
-public class S03_FirstSteps1 {public static void main(String[] args) {
+public class S03_FirstSteps01 {public static void main(String[] args) {
     System.out.println("Hello, Moses");
 
     int myFirstNumber = (10+5)+(2*10);

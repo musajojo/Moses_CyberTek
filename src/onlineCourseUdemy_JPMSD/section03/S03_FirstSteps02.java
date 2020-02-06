@@ -1,6 +1,6 @@
-package onlineCourseUdemy;
+package onlineCourseUdemy_JPMSD.section03;
 
-public class S03_FirstSteps2 {
+public class S03_FirstSteps02 {
     public static void main(String[] args) {
 
         int myValue = 1000;

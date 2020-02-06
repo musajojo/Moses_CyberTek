@@ -1,6 +1,6 @@
-package onlineCourseUdemy;
+package onlineCourseUdemy_JPMSD.section03;
 
-public class S03_FirstSteps3_28 {
+public class S03_FirstSteps03_028 {
     public static void main(String[] args) {
 
         float myMinFloatValue = Float.MIN_VALUE;
