@@ -7,6 +7,21 @@ public class Repl_064_Middle_One {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
 
+        int position;
+        int length;
+
+        if (word.length() % 2 == 1 ) {
+            position = word.length() / 2;
+            length = 1;
+        }else {
+            position = word.length() / 2 - 1;
+            length = 2;
+        }
+        String result = word.substring(position, position + length);
+
+        System.out.println(result);
+
+
 
     }
 }
