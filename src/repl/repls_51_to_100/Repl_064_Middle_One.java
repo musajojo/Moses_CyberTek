@@ -7,10 +7,16 @@ public class Repl_064_Middle_One {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
 
-        int position;
-        int length;
+        int position = 0;
+        int length = 0;
 
-        if (word.length() % 2 == 1 ) {
+        if (word.length() == 1){
+            System.out.println(word+word+word);
+            return;
+        } else if (word.length() == 2){
+            System.out.println(word+word);
+            return;
+        } else if (word.length() % 2 == 1 ) {
             position = word.length() / 2;
             length = 1;
         }else {
@@ -20,9 +26,6 @@ public class Repl_064_Middle_One {
         String result = word.substring(position, position + length);
 
         System.out.println(result);
-
-
-
     }
 }
 /*
@@ -59,5 +62,31 @@ public class Main {
     String word = scan.next();
     //YOUR CODE HERE
   }
+}
+ */
+/*
+package repl.repls_51_to_100;
+import java.util.*;
+
+public class Repl_064_Middle_One {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();
+
+        int position;
+        int length;
+
+        if (word.length() % 2 == 1 ) {
+            position = word.length() / 2;
+            length = 1;
+        }else {
+            position = word.length() / 2 - 1;
+            length = 2;
+        }
+        String result = word.substring(position, position + length);
+
+        System.out.println(result);
+    }
 }
  */
