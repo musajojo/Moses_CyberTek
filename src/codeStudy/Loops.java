@@ -1,7 +1,6 @@
 package codeStudy;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Loops {
     public static void main(String[] args) {
@@ -81,6 +80,5 @@ public class Loops {
         }
 
         System.out.println("\n......................");
-
     }
 }

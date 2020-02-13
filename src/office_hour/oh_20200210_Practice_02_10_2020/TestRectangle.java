@@ -1,4 +1,4 @@
-package office_hour.Practice_02_10_2020;
+package office_hour.oh_20200210_Practice_02_10_2020;
 // Practice_02_10_2020: Association, Has A. overriding equals() method
 class rectangle {
     public double l, w;

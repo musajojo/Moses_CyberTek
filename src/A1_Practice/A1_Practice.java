@@ -3,74 +3,27 @@ import java.util.*; public class A1_Practice
 { public static void main(String[] args) {Scanner scan = new Scanner(System.in);
     // above stays all the time //
 
+    int [] nums = new int[] {2, 3, 5, 10, 54, 26};
+    int [] otherNums = {5, 2, 7};
+    int [] busNumbers = new int[5];
 
-    int maxPrice = 100; //one dollar
-    int minPrice = 25; //25 cents
-    boolean err = false; //iniialize error to be false
-    int itemPrice = 0; //initialize price to be zero
+    busNumbers [0] = 27;
+    busNumbers [1] = 68;
+    busNumbers [2] = 03;
+    busNumbers [3] = 16;
+    busNumbers [4] = 56;
 
-    //Greeting user
-    JOptionPane.showMessageDialog(null, "Welcome to the Moses Vending Machine.");
+    System.out.println(nums[3]);
+    System.out.println(busNumbers[1]);
 
-    //Get item price
-    String userInput = JOptionPane.showInputDialog(null, "Enter price of item (from 25 cents to a dollar, in 5 cent increments");
+    System.out.println();
 
-    //checks when "X" or "Cancel" is clicked
-    if (userInput == null) {
-
-        System.exit(0); //exits program
+    for (int otherNum:otherNums) {
+        System.out.println(otherNum);
     }
-
-    //test for non-integer error
-    try {
-
-        itemPrice = Integer.parseInt(userInput);//covert string number to integer
-
-    } catch (NumberFormatException e) {
-
-        err = true;//error is set true once it is a non-integer
-    }
-
-    //loop for when no valid input is entered
-    while ((userInput.isEmpty()) || (err != false) || (itemPrice > maxPrice) || (itemPrice < minPrice) || ((itemPrice % 5) != 0)) {
-
-        //Invalid price
-        JOptionPane.showMessageDialog(null, "Invalid Price!", "ERROR", JOptionPane.ERROR_MESSAGE);
-
-        //Get item price
-        userInput = JOptionPane.showInputDialog(null, "Enter price of item (from 25 cents to a dollar, in 5 cent increments");
-
-        //checks when "X" or "Cancel" is clicked
-        if (userInput == null) {
-
-            System.exit(0);//exits program
-        }
-
-        //test for string error
-        try {
-
-            itemPrice = Integer.parseInt(userInput);//covert string number to integer
-            err = false;// error is set false once it is an integer value
-
-        } catch (NumberFormatException e) {
-
-            err = true; //error is set true once it is a non-integer
-        }
-    }
-
-    //Determine change
-    int quarters = ((maxPrice - itemPrice) / 25);
-    int dimes = ((maxPrice - itemPrice - (quarters * 25)) / 10);
-    int nickles = ((maxPrice - itemPrice - (quarters * 25) - (dimes * 10)) / 5);
-
-    //Display results to user
-    JOptionPane.showMessageDialog(null, "You bought an item for " + itemPrice + " and inserted a dollar.\n"
-            + "So your change is:\n"
-            + quarters + " Quarters\n"
-            + dimes + " Dimes\n"
-            + nickles + " Nickels");
+    System.out.println();
 
 
 
-    }
+}
 }
