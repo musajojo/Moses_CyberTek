@@ -1,5 +1,5 @@
 package day57;
-
+// Day 57 : Exception Intro
 public class CodeNotes {
     public static void main(String[] args) {
         /*

@@ -1,5 +1,5 @@
 package day58;
-
+// Day 58 : Exception Hierarchy , Try Catch Finally
 public class RunTimeErrorDemo {
     static int num = 0;
     public static void main(String[] args) {

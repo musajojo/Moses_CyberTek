@@ -1,5 +1,5 @@
 package day58;
-
+// Day 58 : Exception Hierarchy , Try Catch Finally
 public class CheckedExceptionDemo {
     public static void main(String[] args) {
         System.out.println("Checked Exception in next line");

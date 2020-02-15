@@ -1,4 +1,5 @@
 package day57;
+// Day 57 : Exception Intro
 public class TryCatch {
     public static void main(String[] args) {
         System.out.println("BEFORE TRY CATCH");

@@ -1,5 +1,5 @@
 package day58;
-
+// Day 58 : Exception Hierarchy , Try Catch Finally
 public class CodeNotes {
     public static void main(String[] args) {
         /*

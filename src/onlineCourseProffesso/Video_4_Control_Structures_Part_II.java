@@ -56,10 +56,5 @@ public class Video_4_Control_Structures_Part_II {
             System.out.println(today);
         }
         System.out.println("Done");
-
-
-
-
-
     }
 }

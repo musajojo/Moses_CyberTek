@@ -32,8 +32,6 @@ public class Video_5_Data_Structures {
             System.out.print(c);
         }
 
-
-
         System.out.println("\n"+"---------------------------------------------------------");
         System.out.println("List or Array List:");
         // size does not need to be defined from the list. Is mutable.
@@ -52,7 +50,6 @@ public class Video_5_Data_Structures {
         for (Character c : arrayList) {
             System.out.print(c);
         }
-
 
 //        List<String> arrayList = new ArrayList<String>();
 //        arrayList.add("H");
@@ -91,8 +88,6 @@ public class Video_5_Data_Structures {
         // many more things can be just type is --> makeModel. --> and look through list of operations Java does
 
         System.out.println("\n"+"---------------------------------------------------------");
-
-
     }
 }
 /*
