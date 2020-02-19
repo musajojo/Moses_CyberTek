@@ -36,6 +36,3 @@ public class Cave_15_Arrays_of_Strings {
         System.out.println(Arrays.toString(numbers));
     }
 }
-/*
-
- */

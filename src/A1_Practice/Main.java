@@ -4,18 +4,32 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter full name:");
+        Scanner input = new Scanner(System.in);
 
-        String name = scan.nextLine();
-        int cmp1, cmp2;
-        cmp1 = name.compareToIgnoreCase("Max Payne");
-        cmp2 = name.compareToIgnoreCase("Alan Wake");
-        if((cmp1 == 0)||(cmp2 == 0)){
-            System.out.println("User found!");
-        } else{
-            System.out.println("User not found!");
-        }
+        System.out.println("Type in Length in Double");
+
+        double length = input.nextDouble();
+        System.out.println("Type in Width in Double");
+
+        double width = input.nextDouble();
+
+        double area;
+
+        double perimeter = length * 2 + width * 2;
+
+        area = length * width;
+
+        String printOut;
+
+        printOut = "Length:\t" + length;
+        printOut += "\nWidth:\t" + width;
+        printOut += "\nArea:\t" + area;
+
+        System.out.println(printOut);
+        System.out.printf("and the perimeter of the rectangle is " + "%.1f", perimeter);
+
+
+
     }
 }
 
