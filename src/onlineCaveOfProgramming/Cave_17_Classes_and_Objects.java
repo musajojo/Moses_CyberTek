@@ -1,6 +1,6 @@
 package onlineCaveOfProgramming;
 
-class Person{
+class PersonOne {
 
     // Instance variables (data or "state")
     String name;
@@ -15,14 +15,14 @@ class Person{
 public class Cave_17_Classes_and_Objects {
     public static void main(String[] args) {
 
-        Person person1 = new Person();
-        person1.name = "Joe Bloggs";
-        person1.age = 37;
+        PersonOne personOne1 = new PersonOne();
+        personOne1.name = "Joe Bloggs";
+        personOne1.age = 37;
 
-        Person person2 = new Person();
-        person2.name = "Sarah Smith";
-        person2.age = 20;
+        PersonOne personOne2 = new PersonOne();
+        personOne2.name = "Sarah Smith";
+        personOne2.age = 20;
 
-        System.out.println(person1.name);
+        System.out.println(personOne1.name);
     }
 }

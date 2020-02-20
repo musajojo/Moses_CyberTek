@@ -166,5 +166,12 @@ lets sort them by name desc then by age asc
 {Hasan , 34 }
 {Fatih , 34 }
          */
+        /*
+        From Task Channel:
+
+        use iterator to iterate over List<Job>
+
+        remove jobs less than 100K salary
+         */
     }
 }

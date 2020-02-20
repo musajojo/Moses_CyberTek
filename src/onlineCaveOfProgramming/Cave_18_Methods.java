@@ -1,6 +1,6 @@
 package onlineCaveOfProgramming;
 
-class Persons {
+class PersonTwo {
 
     // Instance variable (data or "state")
     String name;
@@ -24,19 +24,19 @@ public class Cave_18_Methods {
     public static void main(String[] args) {
 
         // Create a Persons object using the Persons class
-        Persons persons1 = new Persons();
-        persons1.name = "Joe Bloggs";
-        persons1.age = 37;
-        persons1.sayHello();
-        persons1.speak();
+        PersonTwo personTwo1 = new PersonTwo();
+        personTwo1.name = "Joe Bloggs";
+        personTwo1.age = 37;
+        personTwo1.sayHello();
+        personTwo1.speak();
 
         // Create a second Persons object
-        Persons persons2 = new Persons();
-        persons2.name = "Sarah Smith";
-        persons2.age = 20;
-        persons2.sayHello();
-        persons2.speak();
+        PersonTwo personTwo2 = new PersonTwo();
+        personTwo2.name = "Sarah Smith";
+        personTwo2.age = 20;
+        personTwo2.sayHello();
+        personTwo2.speak();
 
-        System.out.println(persons1.name);
+        System.out.println(personTwo1.name);
     }
 }
