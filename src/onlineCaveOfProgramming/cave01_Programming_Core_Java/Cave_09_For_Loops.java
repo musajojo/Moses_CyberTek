@@ -1,4 +1,4 @@
-package onlineCaveOfProgramming;
+package onlineCaveOfProgramming.cave01_Programming_Core_Java;
 
 public class Cave_09_For_Loops {
     public static void main(String[] args) {

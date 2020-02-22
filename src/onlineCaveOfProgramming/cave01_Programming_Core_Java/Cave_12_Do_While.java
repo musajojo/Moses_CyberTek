@@ -1,4 +1,4 @@
-package onlineCaveOfProgramming;
+package onlineCaveOfProgramming.cave01_Programming_Core_Java;
 
 import java.util.Scanner;
 

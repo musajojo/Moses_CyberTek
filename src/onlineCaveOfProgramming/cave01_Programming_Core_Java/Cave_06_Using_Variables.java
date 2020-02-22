@@ -1,4 +1,4 @@
-package onlineCaveOfProgramming;
+package onlineCaveOfProgramming.cave01_Programming_Core_Java;
 
 public class Cave_06_Using_Variables {
     public static void main(String[] args) {
